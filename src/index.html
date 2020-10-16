@@ -20,7 +20,20 @@ path: home
       Let's create a more <abbr title="interdependent">interdependent</abbr> world together.
     </h4>
   </div>
-  <div class="flex justify-center items-center">
+
+{# Work #}
+
+  <div id="work" class="flex justify-center items-center">
   {% include "./_includes/partials/content.html" %}
   </div>
+  
+{# Contact #}
+
+  <div id="contact">
+    <p>Get in Touch</p>
+    <ul>
+      <li>Email: <a href="mailto: {{ settings.meta.email }} "> {{settings.email}} </a></li>
+    </ul>
+  </div>
+
 </div>
