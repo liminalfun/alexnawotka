@@ -31,7 +31,7 @@ h4 {
 /* Links */
 
 a {
-  @apply hover:underline;
+  @apply font-semibold hover:underline;
 }
 
 
