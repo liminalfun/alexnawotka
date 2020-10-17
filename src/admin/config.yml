@@ -28,7 +28,7 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["Tags", "created", "from", "config.yml"]
+        options: ["UX Design", "UX Research, "Visual Design", "Community Organization", "UI Design"]
   - label: "Settings"
     name: "settings"
     editor:
@@ -66,3 +66,20 @@ collections:
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }
           - { label: email, name: email, widget: string }
+  - label: "work"
+    name: "work"
+    folder: "src/projects
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - widget: select
+        label: "tags"
+        name: "tags"
+        multiple: true
+        create: true
+        options: ["Tags", "created", "from", "config.yml"]

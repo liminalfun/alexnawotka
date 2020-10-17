@@ -1,15 +1,33 @@
-<div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 lg:mx-0">
+<div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-8 px-4 max-w-5xl ">
 
     {% if quicklinks.links %}
 
         {% for item in quicklinks.links %}
-            <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400 shadow hover:shadow-md">
-                <h3>{{item.title}}
-                    →</h3>
-                <p>{{item.desc}}</p>
+            <a href="{{item.url}}" class="relative h-auto rounded shadow hover:no-underline hover:shadow-lg overflow-hidden">
+                <div class="relative z-auto pb-2/3">
+                    <img src="{{item.image}}" class="absolute h-full w-full object-cover">
+                </div>
+                <div class="p-5">
+                    <div>
+                        <h3>{{item.title}}</h3>
+                        <p class="font-medium">{{item.desc}}</p>
+                    </div>
+                    {% if item.tags %}
+                    <div class="inline-flex absolute bottom-5">
+                        {% for tag in item.tags %}   
+                            <p class="text-sm rounded mt-3 mr-3 py-1 px-2 inline-block bg-yellow-300">
+                                {{ tag }}
+                            </p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
             </a>
         {% endfor %}
 
     {% endif %}
+
+    {% include "projectslist.html" %}
+
 
 </div>

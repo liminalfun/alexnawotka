@@ -19,5 +19,8 @@
     "postcss-cli": "^7.1.1",
     "prismjs": "^1.21.0",
     "tailwindcss": "^1.7.2"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-inclusive-language": "^1.0.0"
   }
 }

@@ -1,0 +1,11 @@
+<ul>
+  {% for project in projectslist %}
+    <li>
+      <strong>
+        <a href="{{ project.url | url }}">{{ project.data.title }}</a>
+      </strong>
+
+      <span>{{ project.data.description }}</span>
+    </li>
+  {% endfor %}
+</ul>

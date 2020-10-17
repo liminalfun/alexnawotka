@@ -1,14 +1,37 @@
 ---
 links:
-  - title: Netlify CMS
-    url: "https://www.netlifycms.org/"
+  - title: Please Make Me Think
+    url: /projects/pmmt
     desc: Open source content management for your Git workflow
-  - title: Eleventy
+    image: "https://uploads-ssl.webflow.com/5de75b6a524e50459af1c5a3/5eec31c84b65fff8e61f021a_TeleOps-Full.png"
+    tags: ["ux design", "ui design"]
+  - title: Leveler
     url: "https://www.11ty.dev/"
     desc: Eleventy is a simpler static site generator.
-  - title: Alpine.js
+    image:
+    tags: ["ux design", "ui design"]
+  - title: Agora
     url: "https://github.com/alpinejs/alpine"
     desc: A minimal framework for composing JavaScript behavior in your markup.
-  - title: Tailwind CSS
+    image:
+    tags: ["ux design", "ui design"]
+  - title: New 911
     url: "https://tailwindcss.com/"
     desc: A utility-first CSS framework for rapidly building custom designs.
+    image:
+    tags: ["ux design", "ui design"]
+  - title: Subliminal.fun
+    url: "https://tailwindcss.com/"
+    desc: Open source content management for your Git workflow
+    image:
+    tags: ["ux design", "ui design"]
+  - title: Missing Justice
+    url: "https://tailwindcss.com/"
+    desc: Open source content management for your Git workflow
+    image:
+    tags: ["ux design", "ui design"]
+  - title: Loving.Computer
+    url: "https://tailwindcss.com/"
+    desc: Open source content management for your Git workflow
+    image:
+    tags: ["ux design", "ui design"]
