@@ -32,6 +32,15 @@ a {
 }
 
 
+/* Hero */
+
+.hero {
+  background-image: url("/static/img/orthographicBoxes.0.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
