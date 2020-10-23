@@ -2,9 +2,8 @@
 layout: default
 prism: true
 ---
-<div class="flex">
-    <div >
-        <div class="w-56 sticky m-4" style="top: 64px">
+<div class="lg:flex">
+    <div class="lg:w-56 sticky m-4 w-full" style="top: 64px">
         <ul class="list-reset">
         {% for section in sections %}
             <li>
@@ -12,7 +11,6 @@ prism: true
             </li>
         {% endfor %}
         </ul>
-        </div>
     </div>
 
     <div class="flex-1 container max-w-4xl mt-6 px-6">

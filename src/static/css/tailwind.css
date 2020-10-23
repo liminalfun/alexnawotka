@@ -10,11 +10,11 @@
 /* Typography */
 
 h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+  @apply text-4xl mb-3 text-center lg:text-7xl;
 }
 
 h2 {
-  @apply text-3xl mb-3;
+  @apply text-3xl font-medium mb-3;
 }
 
 h3 {

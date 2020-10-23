@@ -7,6 +7,12 @@ module.exports = {
     },
   },
   theme: {
+    fontFamily: {
+      sans: ['DM Sans'],
+      mono: ['DM Sans'],
+      display: ['DM Sans'],
+      body: ['DM Sans']
+    },
     container: {
       center: true,
     },
