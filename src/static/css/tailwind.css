@@ -4,8 +4,14 @@
 
 /*Your Custom CSS Goes here*/
 
-/* Colors */
+/* Spacing */
+.spacing {
+  @apply container mx-auto px-4;
+}
 
+.spacing-info {
+  @apply max-w-screen-md mx-auto my-16;
+}
 
 /* Typography */
 
@@ -28,7 +34,7 @@ h4 {
 /* Links */
 
 a {
-  @apply font-semibold hover:underline;
+  @apply hover:underline;
 }
 
 
