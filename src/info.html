@@ -19,7 +19,7 @@ path: info
 
 {# Bio #}
 
-  <section id="bio" class="grid md:grid-cols-2 items-center justify-items-center max-w-screen-md mx-auto my-12">
+  <section id="bio" class="grid md:grid-cols-2 items-center justify-items-center max-w-screen-md mx-auto my-16">
     <div class="p-4 max-w-xs">
       <img src="/static/img/alex-info.png">
     </div>
@@ -29,7 +29,7 @@ path: info
   </section>
   
 {# Values #}
-  <div class="my-12">
+  <div class="my-16">
     <h4>Why I do it</h4>
     <section id="values" class="grid sm:grid-cols-3 items-center justify-items-center max-w-screen-md mx-auto">
       <div class="flex flex-col p-4 max-w-sm">
@@ -56,17 +56,58 @@ path: info
     </section>
   </div>
 
+{# Services #}
+  <section id="services" class="my-16">
+    <h4>What I do</h4>
+    <div class="divide-y divide-gray-200">
+      <div class="flex items-center justify-between">
+          <div class="p-2 pl-0">
+            <p class="tag"> UX Design </p>
+          </div>
+          <div class="p-2">
+            <p>Information Architecture, Wireframing, Prototyping</p>
+          </div>
 
-
-{# Contact #}
-
-  <div id="contact">
-    <h4 class="mb-2">Links</h4>
-    <ul>
-      <li>Email me at <a href="mailto: {{ settings.meta.email }} "> {{settings.email}} </a></li>
-      <li>Book a chat via <a href="" target="_blank" rel="noreferrer noopener"> Calendly</a></li>
-      <li>Join my <a href="" target="_blank" rel="noreferrer noopener">mailing list</a></li>
-    </ul>
-  </div>
+      </div>
+      <div class="flex items-center justify-between">
+          <div class="p-2 pl-0">
+            <p class="tag"> UX Design </p>
+          </div>
+          <div class="p-2">
+            <p>Information Architecture, Wireframing, Prototyping</p>
+          </div>
+      </div>
+      <div class="flex items-center justify-between">
+          <div class="p-2 pl-0">
+            <p class="tag"> UX Design </p>
+          </div>
+          <div class="p-2">
+            <p>Information Architecture, Wireframing, Prototyping</p>
+          </div>
+        </div>
+    </div>
+    <div class="my-8 grid md:grid-cols-2">
+      <div>
+        <h4>Speaking</h4>
+        <ul class="">
+          <a href=""><li>Lihong’s Sustainable Development Podcast</li></a>
+          <a href=""><li>Solidarity in Digital Innovation, Composite #24</li></a>
+          <a href=""><li>Time Management That Doesn’t Suck, Loving.Computer</li></a>
+          <a href=""><li>Panel Moderator, InfoNexus</li></a>
+        </ul>
+        <h4 class="mt-4">Writing</h4>
+        <ul class="">
+          <a href=""><li>On Grounding in Fluidity, Speciwomen</li></a>
+          <a href=""><li>Substack essay on Collective Dreaming</li></a>
+          <a href=""><li>Substack essay on Sustainable UX Design</li></a>
+          <a href=""><li>Substack essay on Community Accountability</li></a>
+          <a href=""><li>Substack essay on Social Media & Mental Health</li></a>
+        </ul>
+      </div>
+      <div>
+        <img src="/static/img/alex-speaking.png" class="rounded-lg max-w-xs">
+      </div>
+    </div>
+  </section>
 
 </div>

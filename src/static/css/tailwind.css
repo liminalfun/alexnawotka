@@ -41,6 +41,12 @@ a {
   background-position: center;
 }
 
+
+/* Tags */
+
+.tag {
+  @apply text-sm uppercase tracking-wider font-medium rounded mr-2 py-1 px-2 inline-block text-gray-500 border-solid border border-indigo-200;
+}
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
