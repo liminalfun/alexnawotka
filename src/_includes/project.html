@@ -2,31 +2,17 @@
 layout: default
 prism: true
 ---
-<div class="lg:flex">
-    <div class="lg:w-56 sticky m-4 w-full" style="top: 64px">
-        <ul class="list-reset">
-        {% for section in sections %}
-            <li>
-            <a href="#{{ section }}" class="block p-2  font-bold ">{{ section }}</a>
-            </li>
-        {% endfor %}
-        </ul>
+
+<div class="mb-20">
+    <div class="pb-5 mb-5 border-b border-gray-100 hero">
+        <h1 class="font-bold text-5xl">{{title}}</h1>
+        <p class="text-center text-base leading-6 font-medium text-gray-500">
+            {{ description }}
+        </p>
+
     </div>
-
-    <div class="flex-1 container max-w-4xl mt-6 px-6">
-        <div class="pb-5 mb-5 border-b border-gray-100">
-            <h1 class="font-bold text-5xl">{{title}}</h1>
-            <p class="text-center text-base leading-6 font-medium text-gray-500">
-                <time> {{ date | readableDate }}
-                    by
-                    <a>{{ author }}</a>
-
-                </time>
-            </p>
-
-        </div>
-        <article class="prose lg:prose-xl my-4 mx-auto">
-            {{ content | safe }}</article>
+    <article class="prose lg:prose-xl my-4 mx-auto">
+        {{ content | safe }}</article>
 
     </div>
 </div>

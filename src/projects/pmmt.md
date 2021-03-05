@@ -1,19 +1,19 @@
 ---
 title: Please Make Me Think
-description: Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
-image:
+description: Sharing links from a place of clarity and care.
+image: "/static/img/project_pmmt_thumbnail.png"
 sections: ["Intro", "Problem"]
 tags:
   - UX Design
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## Overview
 
-## Section Header
+The spread of viral political information on social media websites like Facebook has become increasingly problematic, contributing to __widespread misinformation__, polarization, while __capitalizing on the anger and fear__ that these posts incite. While a number of tools exist already or are in development to help users to identify fake, biased, or untruthful information, very few target the emotional dimension of information sharing online. __“Please Make Me Think”__ is a project that seeks to use reflection and mindfulness to help individuals pause in the moment before posting to assess whether they truly want to engage in that way.
 
-<a href="{{ '/posts/firstpost/' | url }}">First post</a>
-<a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
+## Why do people share misinformation on social media?
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+The way political information circulates online contributes to global distress (i.e. security, safety, emotional impact, community health, climate distress, etc.). We have identified critical thinking as a key element, in particular the way __emotions affect our ability to think critically when evaluating political information__. By eliciting emotional mindfulness through the user's flow of posting, we intend to disrupt users' patterns of emotional posting.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+- News media that uses a negative tone is more likely to be read. ([Hansell & Weeks, 2016](#))
+

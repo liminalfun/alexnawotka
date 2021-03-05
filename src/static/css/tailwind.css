@@ -44,9 +44,10 @@ a {
   background-image: url("/static/img/orthographicBoxes.0.jpg");
   height: 90vh;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
 
 /* Tags */
 
