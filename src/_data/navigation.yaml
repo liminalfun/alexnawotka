@@ -1,8 +1,8 @@
 ---
 items:
-  - text: Work
-    url: "/work"
-  - text: Contact
-    url: "/#contact"
   - text: Info
     url: "/info"
+  - text: Work
+    url: "/work"
+  - text: Blog
+    url: "/blog"

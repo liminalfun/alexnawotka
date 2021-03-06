@@ -1,20 +1,18 @@
 {# BLM top-bar #}
-<div class="w-full flex items-center bg-black justify-center p-1">
+<!-- <div class="w-full flex items-center bg-black justify-center p-1">
     <a href="#" class="text-white text-sm hover:opacity-75">Black Lives Matter</a>
-</div>
+</div> -->
 
 {# Nav #}
 
 <div class="w-full">
-    <nav class="flex items-center justify-center lg:justify-between flex-wrap p-4 spacing" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
+    <nav class="flex items-center justify-center sm:justify-between flex-wrap py-4" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Logo etc-->
-        <div class="flex items-center">
-            <a href="/" class="font-medium text-lg">
-                Alex Nawotka</a>
-        </div>
+        <a href="/" class="logo">
+            Alex Nawotka</a>
 
         <!--Toggle button (hidden on large screens)-->
-        <button @click="isOpen = !isOpen" type="button" class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
+        <button @click="isOpen = !isOpen" type="button" class="ml-auto block sm:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
             <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
                 <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
                 <path x-show="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
@@ -22,16 +20,20 @@
         </button>
 
         <!--Menu-->
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
+        <div class="w-full flex-grow sm:flex sm:items-center sm:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
 
             {% if navigation.items %}
 
-                <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
-                    {% for item in navigation.items %}
+                <ul class="pt-6 sm:pt-0 list-reset sm:flex justify-end flex-1 items-center">
+                    <!-- {% for item in navigation.items %}
                         <li class="nav__item mr-3">
-                            <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
+                            <a @click="isOpen = false" class="inline-block py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
                         </li>
-                    {% endfor %}
+                    {% endfor %} -->
+                    <li>
+                        <button class="btn-outline" href=" mailto:alexnawotka@pm.me?subject=Incoming%20from%20alexnawotka.fun&body=Be%20sure%20to%20share%20as%20much%20info%20as%20you%20can%20on%20what%20you're%20trying%20to%20achieve%20and%20what%20sort%20of%20budget%20you%20have%20in%20place.%20%F0%9F%8C%B1">Get in Touch</button>
+
+                    </li>
                 </ul>
 
             {% endif %}
