@@ -8,13 +8,14 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      sans: ['DM Sans'],
-      mono: ['DM Sans'],
-      display: ['DM Sans'],
-      body: ['DM Sans']
+      sans: ['Public Sans'],
+      body: ['Public Sans']
     },
     container: {
       center: true,
+    },
+    maxWidth: {
+      prose: '65ch'
     },
     extend: {
       colors: {},
