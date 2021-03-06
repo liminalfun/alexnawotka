@@ -83,7 +83,7 @@ a:hover {
 
 nav a {
   @apply hover:no-underline;
-  opacity: 50%;
+  /* opacity: 50%; */
 }
 
 nav a:hover {
