@@ -18,8 +18,21 @@ module.exports = {
       prose: '65ch'
     },
     extend: {
-      colors: {},
-    },
+      typography: {
+        important: true,
+        DEFAULT: {
+          prose: {
+            color: '#e2dfd0',
+            a: {
+              color: '#d5ccee',
+              '&:hover': {
+                color: '#b7add4',
+              },
+            },
+          },
+        },
+      },
+    }
   },
   variants: {},
   plugins: [require("@tailwindcss/typography")],
