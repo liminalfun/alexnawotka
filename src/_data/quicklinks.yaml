@@ -1,17 +1,32 @@
 ---
 links:
-  - title: Agora
-    url: "https://github.com/alpinejs/alpine"
-    desc: A minimal framework for composing JavaScript behavior in your markup.
-    image:
-    tags: ["ux design", "ui design"]
+  - title: Missing Justice
+    url: "https://missingjustice.ca"
+    desc: New website for a nonprofit working in solidarity with missing and murdered Indigenous women, girls, trans, and 2-spirited people.
+    image: "static/img/missingjustice.png"
+    tags: ["UX/UI Design"]
   - title: Leveler
-    url: /projects/pmmt
-    desc: Open source content management for your Git workflow
-    image: "/static/img/project_pmmt_thumbnail.png"
-    tags: ["ux design", "ui design"]
+    url: "https://leveler.info"
+    desc: A Covid-19 mutual aid tool for peer-to-peer financial redistribution.
+    image: "static/img/leveler.png"
+    tags: ["UX/UI Design"]
   - title: 11-00.tv
     url: "https://11-00.tv"
-    desc: Eleventy is a simpler static site generator.
+    desc: A livestreaming browser-based artwork, for televisioning a post patriarchal future.
+    image: "static/img/11-00-tv-img.jpg"
+    tags: ["Web Development"]
+  - title: Agora
+    url: "http://atypicmedia.com/gatherings"
+    desc: A video conferencing platform for more spontaneous and authentic connections at virtual networking events.
+    image: "static/img/agora.png"
+    tags: ["UX/UI Design", "Web Development"]
+  - title: Le Pick Up
+    wip: Work in Progress → March 2021 
+    desc: Redesigning website for local restaurant in Montréal.
     image:
-    tags: ["ux design", "ui design"]
+    tags: ["UX/UI Design", "Web Development"]
+  - title: AGIR
+    wip: Work in Progress → Spring 2021 
+    desc: Redesigning website for a nonprofit supporting LGBTQ+ migrants and refugees in Montréal.
+    image:
+    tags: ["UX/UI Design", "Web Development"]

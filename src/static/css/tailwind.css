@@ -6,9 +6,9 @@
 
 :root {
   --bg: #181818;
+  --bg2: #2f2f2f;
   --light: #e2dfd0;
   --primary: #d5ccee;
-  --palette1: #4B7F52;
 
   --spacing: 1rem;
   
@@ -18,7 +18,7 @@
 html {
   background-color: var(--bg);
   color: var(--light) !important;
-  @apply container mx-auto p-4;
+  @apply mx-auto w-11/12;
   /* @apply bg-gradient-to-t from-gray-800; */
 }
 
@@ -33,16 +33,16 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  @apply text-4xl leading-tight mb-3;
+  @apply text-3xl md:text-4xl leading-tight mb-3;
   @apply lg:text-5xl lg:w-4/5
 }
 
 h2 {
-  @apply text-3xl font-semibold mb-3;
+  @apply text-2xl md:text-3xl font-medium mb-3;
 }
 
 h3 {
-  @apply text-2xl font-semibold mb-3;
+  @apply text-xl md:text-2xl font-medium mb-3;
 }
 
 h4 {
@@ -54,6 +54,7 @@ p {
   @apply prose-lg font-light;
 }
 
+/*
 ul > li {
 	position: relative;
     padding-left: 1.75em;
@@ -73,13 +74,12 @@ ul > li > :first-child {
     border-width: 0;
     border-style: solid;
     border-color: #d2d6dc;
-}
+}*/
 
 /* Links */
 
 a {
 	text-decoration: underline;
-	color: var(--primary);
 }
 
 a:hover {
@@ -90,14 +90,20 @@ a:hover {
 /* Buttons */
 
 .btn-outline {
-  @apply px-4 py-1 rounded-full;
+  @apply px-4 py-1 rounded-full no-underline;
   border: 1px solid var(--light);
   color: var(--light);
 }
 
-.btn-outline:hover {
+.btn-outline:hover, .btn-small:hover {
   background-color: var(--light);
   color: var(--bg);
+}
+
+.btn-small {
+	@apply px-4 py-1 text-sm rounded text-center no-underline;
+	border: 1px solid var(--light);
+  	color: var(--light);
 }
 
 /* PAGE SECTIONS*/
@@ -113,6 +119,10 @@ nav a:hover {
   opacity: 100%;
 }
 
+nav ul {
+	list-style: none;
+}
+
 .logo {
   @apply text-xl;
   opacity: 100%;
@@ -122,31 +132,26 @@ nav a:hover {
   color: var(--primary);
 }
 
+/* Sections */
 
-/* Hero */
-
-.hero {
-  @apply my-6;
-  min-height: 60vh;
+section {
+	@apply my-20;
 }
 
 /* Work */
 
 .cases {
-  @apply w-full grid md:grid-cols-3 gap-2 my-8;
+  @apply w-full grid grid-cols-2 md:grid-cols-3 gap-8 my-8;
 }
 
 .card {
-  @apply flex flex-col rounded p-4 transition duration-200 ease-in;
-  background-color: var(--palette1);
+  @apply flex flex-col rounded transition duration-200 ease-in no-underline shadow;
+  background-color: var(--bg2);
 }
 
 .card:hover {
-  @apply md:transform md:-translate-y-2;
-}
-
-.card-title {
-  @apply flex flex-col p-2;
+  @apply md:transform md:-translate-y-2 shadow-lg;
+  opacity: 1;
 }
 
 /* Services */
@@ -166,142 +171,16 @@ ul {
 /* Tags */
 
 .tag {
-  @apply text-sm uppercase tracking-wider font-medium rounded mr-2 py-1 px-2 inline-block text-gray-500 border-solid border border-indigo-200;
+  @apply text-sm rounded mt-3 mr-2 py-1 px-2 inline-block no-underline;
+  border: solid 1px var(--light);
+}
+
+.tag p {
+	text-decoration: none;
 }
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
 	color: var(--light);
-}
-
-
-
-/*Lets start with the cloud formation rather*/
-
-/*The container will also serve as the SKY*/
-
-/* .hero {
-  overflow: hidden;
-} */
-
-#clouds{
-  position: absolute;
-  top: 40%;
-	padding: 100px 0;
-	/* background: #c9dbe9;
-	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
-	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
-	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%); */
-}
-
-/*Time to finalise the cloud shape*/
-.cloud {
-	width: 200px; height: 60px;
-	background: var(--primary);
-	border-radius: 200px;
-	-moz-border-radius: 200px;
-	-webkit-border-radius: 200px;
-	
-	position: relative; 
-}
-
-.cloud:before, .cloud:after {
-	content: '';
-	position: absolute; 
-	background: var(--primary);
-	width: 100px; height: 70px;
-	position: absolute; top: -15px; left: 30px;
-	border-radius: 100px;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	
-	-webkit-transform: rotate(50deg);
-	transform: rotate(50deg);
-	-moz-transform: rotate(50deg);
-}
-
-.cloud:after {
-	width: 100px; height: 80px;
-	top: -25px; left: auto; right: 30px;
-  
-  -webkit-transform: rotate(30deg);
-	transform: rotate(30deg);
-	-moz-transform: rotate(30deg);
-}
-
-/*Time to animate*/
-.x1 {
-	-webkit-animation: moveclouds 15s linear infinite;
-	-moz-animation: moveclouds 15s linear infinite;
-	-o-animation: moveclouds 15s linear infinite;
-  opacity: 0.85;
-}
-
-/*variable speed, opacity, and position of clouds for realistic effect*/
-.x2 {
-	left: 200px;
-	
-	-webkit-transform: scale(0.6);
-	-moz-transform: scale(0.6);
-	transform: scale(0.6);
-	opacity: 0.6; /*opacity proportional to the size*/
-	
-	/*Speed will also be proportional to the size and opacity*/
-	/*More the speed. Less the time in 's' = seconds*/
-	-webkit-animation: moveclouds 25s linear infinite;
-	-moz-animation: moveclouds 25s linear infinite;
-	-o-animation: moveclouds 25s linear infinite;
-}
-
-.x3 {
-	left: -250px; top: -200px;
-	
-	-webkit-transform: scale(0.8);
-	-moz-transform: scale(0.8);
-	transform: scale(0.8);
-	opacity: 0.8; /*opacity proportional to the size*/
-	
-	-webkit-animation: moveclouds 30s linear infinite;
-	-moz-animation: moveclouds 30s linear infinite;
-	-o-animation: moveclouds 30s linear infinite;
-}
-
-.x4 {
-	left: 470px; top: -250px;
-	
-	-webkit-transform: scale(0.75);
-	-moz-transform: scale(0.75);
-	transform: scale(0.75);
-	opacity: 0.75; /*opacity proportional to the size*/
-	
-	-webkit-animation: moveclouds 33s linear infinite;
-	-moz-animation: moveclouds 33s linear infinite;
-	-o-animation: moveclouds 33s linear infinite;
-}
-
-.x5 {
-	left: -150px; top: -150px;
-	
-	-webkit-transform: scale(0.8);
-	-moz-transform: scale(0.8);
-	transform: scale(0.8);
-	opacity: 0.8; /*opacity proportional to the size*/
-	
-	-webkit-animation: moveclouds 35s linear infinite;
-	-moz-animation: moveclouds 35s linear infinite;
-	-o-animation: moveclouds 35s linear infinite;
-}
-
-@-webkit-keyframes moveclouds {
-	0% {margin-left: -1000px;}
-	100% {margin-left: 1000px;}
-}
-@-moz-keyframes moveclouds {
-	0% {margin-left: -1000px;}
-	100% {margin-left: 1000px;}
-}
-@-o-keyframes moveclouds {
-	0% {margin-left: -1000px;}
-	100% {margin-left: 1000px;}
 }

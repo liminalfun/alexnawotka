@@ -4,26 +4,38 @@
 
         {% for item in quicklinks.links %}
                 
-            <a class="card" href="{{item.url}}">
-                <div class="card-title">
-                   
-                        <h3>{{item.title}}</h3>
-                        <p>{{item.desc}}</p>
-           
-                    <!-- {% if item.tags %}
-                    <div class="flex flex-wrap">
+            <div class="card">
+                <div class="w-full rounded-t">
+                    <img src="{{item.image}}" class="rounded-t">
+                </div>
+                <div class="p-4 flex flex-col flex-grow">
+                    
+                    <h3>{{item.title}}</h3>
+                    {% if item.tags %}
+                    <div class="flex flex-wrap space-x-2 opacity-75">
                         {% for tag in item.tags %}   
-                            <p class="text-sm rounded mt-3 mr-2 py-1 px-2 inline-block text-gray-500 border-solid border border-indigo-200">
+                            <p class="text-xs">
                                 {{ tag }}
                             </p>
                         {% endfor %}
                     </div>
-                    {% endif %} -->
+                    {% endif %}
+                    <p class="text-base leading-normal mb-auto">{{item.desc}}</p>
+        
+
+                    <div class="flex space-x-4 mt-4 flex-end justify-between">
+                        {% if item.url %}
+                            <a href="{{item.url}}" target="_blank" rel="noreferrer" class="btn-small flex-grow">Go to Website</a>
+                        {% endif %}
+                        {% if item.projecturl %}
+                        <a href="{{item.projecturl}}" class="btn-small flex-grow">Process</a>
+                        {% endif %}
+                        {% if item.wip %}
+                        <p class="text-sm flex-grow border-t border-light pt-1">{{item.wip}}</p>
+                        {% endif %}
+                    </div>
                 </div>
-                <div class="">
-                    <img src="{{item.image}}" class="">
-                </div>
-            </a>
+            </div>
             
               
         {% endfor %}

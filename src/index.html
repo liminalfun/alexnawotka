@@ -3,32 +3,30 @@ layout: default
 title: Alex Nawotka
 path: home
 ---
-<div id="clouds">
-  <div class="cloud x1"></div>
-  <!-- Time for multiple clouds to dance around -->
-  <div class="cloud x2"></div>
-  <div class="cloud x3"></div>
-  <div class="cloud x4"></div>
-  <div class="cloud x5"></div>
-</div>
 
-<div class="hero">
-
-    <h1>
-        Holistic design for your digital ecosystem.
-    </h1>
-    <p>I collaborate with nonprofits, small businesses, artists, and community-centered startups to identify their goals, strategize, and create solutions that sustain through growth and change.
-    </p>
-</div>
+<section class="flex flex-col">
+  <div class="md:flex md:space-x-12 mt-6">
+    <div class="flex space-x-4 min-w-max mb-4">
+      <img class="rounded-full w-20 h-20 object-cover" src="/static/img/presentation-composite.jpg" alt="Alex giving a presentation at Composite #24">
+      <div>
+        <h1 class="prose-lg font-light whitespace-no-wrap">Digital Designer & Developer</h1>
+        <p class="text-base">Pronouns: <span class="opacity-75">they/them</span></p>
+        <p class="text-base">Location: <span class="opacity-75">Tiohtià:ke / "Montréal"</span></p>
+      </div>
+    </div>
+    <p>I collaborate with community-centered nonprofits, small businesses, artists, and startups to identify their goals, strategize, and create solutions that sustain through growth and change.</p>
+  </div>
+</section>
 
 {# Work #}
 
-{# <div>
+<section>
+  <h2>Projects</h2>
 {% include "./_includes/partials/content.html" %}
-</div> #}
+</section>
 
-<div class="services">
-  <h2>Services</h2>
+<section class="services">
+  <h2 >Services</h2>
   <p>
     My approach puts the people whose lives will be most impacted by the outcome at the center. I work to build sustainable, community-led solutions through <a href="https://www.interaction-design.org/literature/topics/holistic-design" noreferrer target="_blank">holistic, human-centered design</a>.
   </p>
@@ -47,8 +45,8 @@ path: home
     </div>
 
     <div>
-      <h3>02. UX Design</h3>
-      <p>Whether you've got a new project or are seeking a refresh on an existing project, the focus is on learning about the people who interact with your project, listening to them, and designing from a place of empathy.</p>
+      <h3>02. UX/UI Design</h3>
+      <p>Whether you've got a new project or are seeking a refresh on an existing project, my focus is on learning about the people who interact with your project – listening to them, and designing with empathy & accountability.</p>
       <ul>
         <li>User Research</li>
         <li>Personas, Journeymaps, Storyboards</li>
@@ -65,17 +63,20 @@ path: home
     
     <div>
       <h3>03. Web Development</h3>
-      <p>I ensure that projects are built with up-to-date technology and are easy to maintain through growth and change. I prioritize environmentally and socially responsible technologies.</p>
+      <p>I ensure that projects are built with up-to-date technology and are easy to maintain through growth and change. I prioritize environmentally and socially responsible technologies for accessible websites.</p>
       <ul>
-        <li>Front-end Development</li>
-        <li>Responsive Website Development</li>
+        <li>Mobile-first approach</li>
         <li>Wordpress</li>
         <li>Squarespace, Webflow, Cargo, Shopify, BigCartel, Format</li>
         <li>Vue.js</li>
-        <li>Gatsby</li>
-        <li>Eleventy</li>
+        <li>Gatsby / Hugo / Eleventy</li>
       </ul>
     </div>
 
   </div>
-</div>
+</section>
+
+<section>
+  <h2>Get in Touch</h2>
+  <p>Email me at hi@alexnawotka.com 🌱</p>
+</section>

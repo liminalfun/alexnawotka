@@ -1,9 +1,39 @@
 ---
 layout: default
-title: Info
-path: info
+title: Work
+path: work
 ---
 
-<div id="case-studies" class="flex justify-center items-center">
-    {% include "./_includes/partials/content.html" %}
+<div>
+    {% include "./_includes/partials/projects.html" %}
 </div>
+
+<section class="mt-15">
+    {% set projectslist = collections.projects %}
+
+    {% for project in projectslist %}
+        <article class="my-8">
+            <h2 class="">
+                <a href="{{ project.url | url }}">
+                    {% if project.data.title %}
+                        {{ project.data.title }}
+                    {% else %}
+                        Untitled
+                    {% endif %}
+                </a>
+            </h2>
+            {% if project.data.description %}
+                <p class="">
+                    {{ project.data.description }}
+                </p>
+            {% endif %}
+
+            <p>
+                <a href="{{ project.url | url }}" class="text-indigo-500 font-bold text-lg">
+                    Read more →
+                </a>
+            </p>
+
+        </article>
+    {% endfor %}
+</section>

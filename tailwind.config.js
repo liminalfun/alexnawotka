@@ -14,10 +14,14 @@ module.exports = {
     container: {
       center: true,
     },
-    maxWidth: {
-      prose: '65ch'
-    },
     extend: {
+      maxWidth: {
+        prose: '65ch'
+      },
+      colors: {
+        'light': '#e2dfd0'
+      },
+
       typography: {
         important: true,
         DEFAULT: {
