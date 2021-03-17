@@ -132,6 +132,12 @@ nav ul {
   color: var(--primary);
 }
 
+/* Footer */
+
+.wcb-d {
+  text-align: right !important;
+}
+
 /* Sections */
 
 section {

@@ -1,4 +1,4 @@
-<footer class="bottom-0 mt-24">
+<footer class="mt-24 mb-2">
 
     <!-- <div id="contact" class="grid mx-auto sm:grid-cols-2 md:grid-cols-3 justify-between">
         <a class="px-16" href="mailto: {{ settings.meta.email }} "> {{settings.email}} </a>
@@ -9,12 +9,17 @@
         <a class="px-16" href="#">Instagram</a>
     </div> -->
 
-    <div class="">
-        <small class="text-gray-500">Copyright ©
-            {{settings.name}}
-            2021. Made with <a href="https://www.netlifycms.org" target="_blank" rel="noopener"/>Netlify CMS</a>, <a href="https://www.netlifycms.org" target="_blank" rel="noopener">Eleventy</a>, <a href="https://www.netlifycms.org" target="_blank" rel="noopener">Alphine JS</a> & <a href="https://www.netlifycms.org" target="_blank" rel="noopener">Tailwind CSS</a>.
-            •
-            <a href="https://github.com/liminalfun/alexnawotka" class="underline" target="_blank" rel="noopener">View on Github</a>
-        </small>
+    <div class="flex justify-between">
+        <div>
+            <small class="block">Copyright ©
+                {{settings.name}}
+                2021. 
+                <a href="https://github.com/liminalfun/alexnawotka" class="underline" target="_blank" rel="noopener">View on Github</a>
+            </small>
+            <small class="block">
+                    Made with <a href="https://www.netlifycms.org" target="_blank" rel="noopener"/>Netlify CMS</a>, <a href="https://www.netlifycms.org" target="_blank" rel="noopener">Eleventy</a>, <a href="https://www.netlifycms.org" target="_blank" rel="noopener">Alphine JS</a> & <a href="https://www.netlifycms.org" target="_blank" rel="noopener">Tailwind CSS</a>.
+            </small>
+        </div> 
+        <div id="wcb" class="carbonbadge wcb-d"></div>
     </div>
 </footer>
