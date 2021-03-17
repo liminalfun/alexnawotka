@@ -1,25 +1,29 @@
 ---
 links:
-  - title: Missing Justice
-    url: "https://missingjustice.ca"
-    desc: New website for a nonprofit working in solidarity with missing and murdered Indigenous women, girls, trans, and 2-spirited people.
-    image: "static/img/missingjustice.png"
-    tags: ["UX/UI Design"]
   - title: Leveler
     url: "https://leveler.info"
     desc: A Covid-19 mutual aid tool for peer-to-peer financial redistribution.
     image: "static/img/leveler.png"
+    imagealt: Leveler – Redistribute Wealth smiley
     tags: ["UX/UI Design"]
   - title: 11-00.tv
     url: "https://11-00.tv"
     desc: A livestreaming browser-based artwork, for televisioning a post patriarchal future.
     image: "static/img/11-00-tv-img.jpg"
+    imagealt: 11-00.tv – triangle video
     tags: ["Web Development"]
   - title: Agora
     url: "http://atypicmedia.com/gatherings"
     desc: A video conferencing platform for more spontaneous and authentic connections at virtual networking events.
     image: "static/img/agora.png"
+    imagealt: Screenshot of Agora interface
     tags: ["UX/UI Design", "Web Development"]
+  - title: Missing Justice
+    url: "https://missingjustice.ca"
+    desc: New website for a nonprofit working in solidarity with missing and murdered Indigenous women, girls, trans, and 2-spirited people.
+    image: "static/img/missingjustice.png"
+    imagealt: Missing Justice logo
+    tags: ["UX/UI Design"]
   - title: Le Pick Up
     wip: Work in Progress → March 2021 
     desc: Redesigning website for local restaurant in Montréal.
