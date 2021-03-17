@@ -135,7 +135,7 @@ nav ul {
 /* Footer */
 
 .wcb-d {
-  text-align: right !important;
+  @apply text-left md:text-right !important;
 }
 
 /* Sections */

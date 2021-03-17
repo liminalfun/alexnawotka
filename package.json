@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-img": "^0.8.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@tailwindcss/typography": "^0.2.0",
     "alpinejs": "^2.6.0",
