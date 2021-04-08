@@ -1,0 +1,51 @@
+---
+layout: default
+title: Alex Nawotka
+path: home
+---
+
+<h1>JS30</h1>
+
+<p>This is a showcase of mini-projects completed in the <a href="https://javascript30.com/" target="_blank" rel="noreferrer">Vanilla JavaScript 30 Day Challenge</a> by Wes Bos.</p>
+
+<p>You can view my full repo, including my readme of daily process reflections, on <a href="https://github.com/liminalfun/JS30" target="_blank" rel="noreferrer">GitHub</a>.</p>
+
+
+<main class="cases">
+
+    {% if js30.links %}
+
+        {% for item in js30.links %}
+                
+            <div class="card">
+                <div class="w-full rounded-t">
+                    <Image src="{{item.image}}" class="rounded-t" alt="{{item.imagealt}}">
+                </div>
+                <div class="p-4 flex flex-col flex-grow">
+                    
+                    <h3>{{item.title}}</h3>
+        
+
+                    <div class="flex space-x-4 mt-4 flex-end justify-between">
+                        {% if item.codeurl %}
+                        <a href="{{item.codeurl}}" target="_blank" rel="noreferrer" class="btn-small flex-grow">See the code</a>
+                        {% endif %}
+                        {% if item.url %}
+                            <a href="{{item.url}}" target="_blank" rel="noreferrer" class="btn-small flex-grow">See the project</a>
+                        {% endif %}
+                        {% if item.wip %}
+                        <p class="text-sm flex-grow border-t border-light pt-1">{{item.wip}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            
+              
+        {% endfor %}
+
+    {% endif %}
+
+    {% include "projectslist.html" %}
+
+
+</main>

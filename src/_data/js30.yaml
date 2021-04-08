@@ -1,0 +1,106 @@
+---
+links:
+  - title: JavaScript Drum Kit
+    url: "https://liminalfun.github.io/JS30/01_drum/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/01_drum"
+    image: "../static/img/js30/01.png"
+  - title: JS and CSS Clock
+    url: "https://liminalfun.github.io/JS30/02_clock/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/02_clock"
+    image: "../static/img/js30/02.png"
+    tags: ["Web Development"]
+  - title: Update CSS Variables with JS
+    url: "https://liminalfun.github.io/JS30/03_cssvar/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/03_cssvar"
+    image: "../static/img/js30/03.png"
+    tags: ["UX/UI Design", "Web Development"]
+  - title: Flex Panel Gallery
+    url: "https://liminalfun.github.io/JS30/05_flex/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/05_flex"
+    image: "../static/img/js30/05.png"
+    tags: ["UX/UI Design"]
+  - title: Type Ahead
+    url: "https://liminalfun.github.io/JS30/06_type/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/06_type"
+    image: "../static/img/js30/06.png"
+  - title: HTML5 Canvas
+    url: "https://liminalfun.github.io/JS30/08_canvas/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/08_canvas"
+    image: "../static/img/js30/08.png"
+  - title: Hold Shift and Check Checkboxes
+    url: "https://liminalfun.github.io/JS30/10_check/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/10_check"
+    image: "../static/img/js30/10.png"
+  - title: Custom Video Player
+    url: "https://liminalfun.github.io/JS30/11_vid/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/11_vid"
+    image: "../static/img/js30/11.png"
+  - title: Key Sequence Detection
+    url: "https://liminalfun.github.io/JS30/12_keyseq/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/12_keyseq"
+    image: "../static/img/js30/12.png"
+    tags: ["UX/UI Design", "Web Development"]
+  - title: Slide in on Scroll
+    url: "https://liminalfun.github.io/JS30/13_slide/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/13_slide"
+    image: "../static/img/js30/13.png"
+    tags: ["UX/UI Design"]
+  - title: Local Storage
+    url: "https://liminalfun.github.io/JS30/15_localstorage/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/15_localstorage"
+    image: "../static/img/js30/15.png"
+    tags: ["UX/UI Design", "Web Development"]
+  - title: Mouse Move Shadows
+    url: "https://liminalfun.github.io/JS30/16_mousemove/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/16_mousemove"
+    image: "../static/img/js30/16.png"
+    tags: ["UX/UI Design", "Web Development"]
+  - title: Webcam Fun
+    url: "https://liminalfun.github.io/JS30/19_webcam/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/19_webcam"
+    image: "../static/img/js30/19.png"
+  - title: Speech Detection
+    url: "https://liminalfun.github.io/JS30/20_speech/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/20_speech"
+    image: "../static/img/js30/20.png"
+    tags: ["Web Development"]
+  - title: Geolocation based Speedometer and Compass
+    url: "https://liminalfun.github.io/JS30/21_geolocation/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/21_geolocation"
+    image: "../static/img/js30/21.png"
+    tags: ["UX/UI Design", "Web Development"]
+  - title: Follow Along Link Highlighter
+    url: "https://liminalfun.github.io/JS30/22_followalong/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/22_followalong"
+    image: "../static/img/js30/22.png"
+    tags: ["UX/UI Design"]
+  - title: Speech Synthesis
+    url: "https://liminalfun.github.io/JS30/23_speechsynth/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/23_speechsynth"
+    image: "../static/img/js30/23.png"
+  - title: Sticky Nav & Parallax
+    url: "https://liminalfun.github.io/JS30/24_stickynav/index-START.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/24_stickynav"
+    image: "../static/img/js30/24.png"
+  - title: Stripe Follow Along Nav
+    url: "https://liminalfun.github.io/JS30/26_followalongnav/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/26_followalongnav"
+    image: "../static/img/js30/26.png"
+  - title: Click and Drag
+    url: "https://liminalfun.github.io/JS30/27_clickdrag/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/27_clickdrag"
+    image: "../static/img/js30/27.png"
+  - title: Video Speed Controller
+    url: "https://liminalfun.github.io/JS30/28_vidspeed/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/28_vidspeed"
+    image: "../static/img/js30/28.png"
+    tags: ["UX/UI Design", "Web Development"]
+  - title: Countdown Timer
+    url: "https://liminalfun.github.io/JS30/29_countdown/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/29_countdown"
+    image: "../static/img/js30/29.png"
+    tags: ["UX/UI Design"]
+  - title: Whack A Mole
+    url: "https://liminalfun.github.io/JS30/30_whackamole/index.html"
+    codeurl: "https://github.com/liminalfun/JS30/tree/main/30_whackamole"
+    image: "../static/img/js30/30.png"
