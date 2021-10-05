@@ -1,5 +1,30 @@
 ---
 links:
+  - title: Valerie Crawford
+    url: "https://valeriecrawford.ca/"
+    desc: Custom online shop for local jeweler.
+    image: "static/img/valeriecrawford.png"
+    imagealt: Valerie Crawford
+    tags: ["UX/UI Design", "Web Development"]
+  - title: Sirivik
+    url: "https://sirivik.ca/"
+    desc: Website for a food security initiative in Nunavik.
+    image: "static/img/sirivik.png"
+    imagealt: Sirivik
+    tags: ["Web Development", "Mutual Design"]
+  - title: Daoist Therapy
+    url: "https://www.daoisttherapy.com/"
+    desc: Info website for a daoist medicine & acupuncture practitioner.
+    image: "static/img/daoisttherapy.png"
+    imagealt: Daoist Therapy
+    tags: ["UX/UI Design", "Web Development"]
+  - title: Subversions
+    url: "https://subversions.ca/"
+    projecturl: "https://www.mutualdesign.cc/subversions"
+    desc: Creating an accessible website and archive for a feminist journal
+    image: "static/img/subversions.png"
+    imagealt: Subversions
+    tags: ["Web Development", "Mutual Design"]
   - title: Leveler
     url: "https://leveler.info"
     desc: A Covid-19 mutual aid tool for peer-to-peer financial redistribution.
@@ -25,12 +50,12 @@ links:
     imagealt: Missing Justice logo
     tags: ["UX/UI Design"]
   - title: Le Pick Up
-    wip: Work in Progress → March 2021 
+    url: "https://lepickupmtl.com/"
     desc: Redesigning website for local restaurant in Montréal.
-    image:
+    image: "static/img/lepickup.png"
     tags: ["UX/UI Design", "Web Development"]
   - title: AGIR
-    wip: Work in Progress → Spring 2021 
+    wip: Work in Progress → 2021 
     desc: Redesigning website for a nonprofit supporting LGBTQ+ migrants and refugees in Montréal.
     image:
     tags: ["UX/UI Design", "Web Development"]
