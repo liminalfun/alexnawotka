@@ -83,7 +83,7 @@ a {
 }
 
 a:hover {
-  opacity: .7;
+  text-decoration: none;
 }
 
 
